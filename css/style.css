@@ -358,6 +358,8 @@ p {
 #contact-container p {
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #contact-container input, 
@@ -477,7 +479,8 @@ footer {
     }
   
     .menu-container .menu-logo img {
-        max-height: 30px;
+        max-height: 50px;
+        max-width: 50px;
     }
   
     .menu-container .menu {
@@ -500,9 +503,26 @@ footer {
     .menu-container input:checked ~ .menu {
         transform: translateX(-100%);
     }
+
+    #main-banner h1 {
+        font-size: 3.5rem;
+    }
+
+    #main-banner p {
+        font-size: 2.5rem;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
+
+    #main-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    #main-banner p {
+        font-size: 1.5rem;
+    }
 
     #plans-container .plan {
         max-width: 100%;
@@ -520,6 +540,11 @@ footer {
         width: 100%;
     }
 
+    #contact-container p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
     #contact-container input, 
     #contact-container textarea {
         box-sizing: border-box;
@@ -531,7 +556,7 @@ footer {
 
     footer {
         box-sizing: border-box;
-        font-size: 1rem;
+        font-size: .8rem;
         width: 100%;
     }
 }
